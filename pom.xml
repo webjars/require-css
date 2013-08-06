@@ -11,7 +11,7 @@
     <packaging>jar</packaging>
     <groupId>org.webjars</groupId>
     <artifactId>require-css</artifactId>
-    <version>0.0.7-3</version>
+    <version>0.0.7-4-SNAPSHOT</version>
     <name>require-css</name>
     <description>WebJar for require-css</description>
     <url>http://webjars.org</url>
@@ -36,7 +36,7 @@
         <url>http://github.com/webjars/require-css</url>
         <connection>scm:git:https://github.com/webjars/require-css.git</connection>
         <developerConnection>scm:git:https://github.com/webjars/require-css.git</developerConnection>
-        <tag>require-css-0.0.7-3</tag>
+        <tag>HEAD</tag>
     </scm>
     
     <dependencies>
