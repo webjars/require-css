@@ -1,7 +1,3 @@
 requirejs.config({
-    map: {
-        '*': {
-            'css': 'webjars!css'
-        }
-    }
+    paths: { "css": webjars.path("require-css", "css") }
 });
