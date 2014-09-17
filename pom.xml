@@ -90,6 +90,30 @@
                             <toDir>${destDir}</toDir>
                         </configuration>
                     </execution>
+                    <execution>
+                        <id>download-css-builder-js</id>
+                        <phase>process-resources</phase>
+                        <goals>
+                            <goal>download-single</goal>
+                        </goals>
+                        <configuration>
+                            <url>${upstream.url}</url>
+                            <fromFile>css-builder.js</fromFile>
+                            <toDir>${destDir}</toDir>
+                        </configuration>
+                    </execution>
+                    <execution>
+                        <id>download-package-json</id>
+                        <phase>process-resources</phase>
+                        <goals>
+                            <goal>download-single</goal>
+                        </goals>
+                        <configuration>
+                            <url>${upstream.url}</url>
+                            <fromFile>package.json</fromFile>
+                            <toDir>${destDir}</toDir>
+                        </configuration>
+                    </execution>
                 </executions>
             </plugin>
 
