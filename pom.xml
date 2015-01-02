@@ -11,7 +11,7 @@
     <packaging>jar</packaging>
     <groupId>org.webjars</groupId>
     <artifactId>require-css</artifactId>
-    <version>0.1.9-SNAPSHOT</version>
+    <version>0.1.8-1-SNAPSHOT</version>
     <name>require-css</name>
     <description>WebJar for require-css</description>
     <url>http://webjars.org</url>
@@ -54,7 +54,15 @@
         <destDir>${project.build.outputDirectory}/META-INF/resources/webjars/${project.artifactId}/${project.version}</destDir>
         <requirejs>
             {
-                "paths": { "css": "css" }
+                "paths": {
+                    "css": "css",
+                    "require-css": "css"
+                },
+                "map": {
+                    "*": {
+                        "css": "css"
+                    }
+                }
             }
         </requirejs>
     </properties>
