@@ -11,7 +11,7 @@
     <packaging>jar</packaging>
     <groupId>org.webjars</groupId>
     <artifactId>require-css</artifactId>
-    <version>0.1.8-2-SNAPSHOT</version>
+    <version>0.1.10-SNAPSHOT</version>
     <name>require-css</name>
     <description>WebJar for require-css</description>
     <url>http://webjars.org</url>
@@ -49,7 +49,7 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <upstream.version>0.1.8</upstream.version>
+        <upstream.version>0.1.10</upstream.version>
         <upstream.url>https://raw.github.com/guybedford/require-css/${upstream.version}</upstream.url>
         <destDir>${project.build.outputDirectory}/META-INF/resources/webjars/${project.artifactId}/${project.version}</destDir>
         <requirejs>
